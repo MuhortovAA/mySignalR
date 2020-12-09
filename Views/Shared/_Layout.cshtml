@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link asp-href-include="~/css/bootstrap.css" rel="stylesheet" />
+    <link asp-href-include="~/css/bootstrap-grid.css" rel="stylesheet" />
+    <link asp-href-include="~/css/bootstrap-reboot.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/chat.js"></script>
+</body>
+</html>
